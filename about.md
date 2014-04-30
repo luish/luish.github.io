@@ -24,10 +24,11 @@ A empresa é responsável por três dos sites de músicas mais acessados no Bras
 Você pode me encontrar nas seguintes redes sociais:
 
 * [Github](https://github.com/luish)
-* [Bitbucket](https://bitbucket.org/luish)
+* [Twitter](http://twitter.com/luishborges)
 * [Linkedin](http://br.linkedin.com/in/luishborges)
 * [Google+](https://plus.google.com/u/0/102861386079195208584)
 * [Vimeo](https://vimeo.com/luish)
 * [Delicious](https://delicious.com/luishenrique)
 * [Flickr](http://www.flickr.com/photos/luis-henrique)
 * [Last.fm](http://last.fm/user/luishbsousa)
+* [Bitbucket](https://bitbucket.org/luish)

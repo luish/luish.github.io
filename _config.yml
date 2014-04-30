@@ -9,8 +9,7 @@ permalink:        pretty
 title:            Luís Henrique Borges
 tagline:          luish
 description:      Some random texts
-url:              http://localhost:4000
-#url:              http://luish.github.com
+url:              http://luish.github.com
 
 author:
   name:           Luis Henrique
@@ -26,6 +25,7 @@ github:
 
 pages_list:
     Github: 'http://github.com/luish'
+    Twitter: 'http://twitter.com/luishborges'
     Sobre: '/about'
     Posts: '/posts'
     Feed: '/atom.xml'

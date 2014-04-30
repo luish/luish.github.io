@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);
 
 body {
-  font:1.2em/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font:1.15em/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
   color:#646464;
   font-weight:300;
 }
@@ -95,13 +95,30 @@ a:hover {
 
 /* About page */
 
-.about-photo {
-    float: right;
-    margin-left: 20px;
-    margin-bottom: 20px;
+@media (min-width: 28em) {
+    .about-photo {
+        float: right;
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+
+    .about-photo img {
+        width: 220px;
+        display: inline;
+    }
 }
 
-.about-photo img {
-    width: 220px;
-    display: inline;
+@media (max-width: 28em) {
+    .left, .right, img { 
+        float: none;
+        margin-left: auto;
+        margin-right: auto; 
+        border: 2px solid
+    }
+}
+
+@media (max-width:50em) {
+    .container {
+        padding: 0 20px;
+    }
 }

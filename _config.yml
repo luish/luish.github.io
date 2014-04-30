@@ -1,0 +1,31 @@
+# Dependencies
+markdown:         redcarpet
+pygments:         true
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            Luís Henrique Borges
+tagline:          luish
+description:      Some random texts
+url:              http://localhost:4000
+#url:              http://luish.github.com
+
+author:
+  name:           Luis Henrique
+  url:            https://twitter.com/luishborges
+
+paginate:         1
+
+# Custom vars
+version:          1.0.0
+
+github:
+  repo:           https://github.com/poole/poole
+
+pages_list:
+    Github: 'http://github.com/luish'
+    Sobre: '/about'
+    Posts: '/posts'
+    Feed: '/atom.xml'

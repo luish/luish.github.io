@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+
+  {% include head.html %}
+
+  <body>
+
+    <div class="container content home">
+      <div class="masthead">
+        <div class="masthead-photo">
+          <img src="/public/img/luish.png"/>
+        </div>
+
+        <h3 class="masthead-title">
+          <a href="/" title="{{ site.title }} - {{ site.tagline }}">{{ site.title }}
+          <small class="subtitle">(luish)</small></a>
+        </h3>
+        
+        <p>
+          <ul class="masthead-menu">
+          {% for page in site.pages_list %}
+            <li><a href="{{ page[1] }}">{{ page[0] }}</a></li>
+          {% endfor %}
+          </ul>
+        </p>
+
+        <p class="desc">Mobile Developer at <a href="http://www.studiosol.com.br">Studio Sol</a></p>
+        <p class="desc">Bachelor in computer science at <a href="http://www.ufla.br">UFLA</a></p>
+      </div>
+
+      {{ content }}
+
+      {% include footer.html %}
+    </div>
+
+  </body>
+</html>

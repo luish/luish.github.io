@@ -1,0 +1,22 @@
+---
+layout: page
+title: Posts
+---
+
+<div class="posts">
+{% if site.posts.size > 0 %}
+  <ul>
+  {% for post in site.posts %}
+    <li class="post-title">
+      <a href="{{ post.url }}">
+        {{ post.title }}
+      </a>
+
+      <span class="post-date">{{ post.date | date_to_string }}</span>
+    </li>
+  {% endfor %}
+  </ul>
+{% else %}
+  <p>Nenhum post ainda.</p>
+{% endif %}
+</div>

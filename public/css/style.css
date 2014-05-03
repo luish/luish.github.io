@@ -112,8 +112,10 @@ a:hover {
     .left, .right, img { 
         float: none;
         margin-left: auto;
-        margin-right: auto; 
-        border: 2px solid
+        margin-right: auto;
+    }
+    img {
+        width: 100%;
     }
 }
 

@@ -5,6 +5,7 @@ body {
   font: 1em/1.5 "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #646464;
   font-weight: 300;
+  letter-spacing: -0.01em;
 }
 
 h1, h2, h3, h4, h5, h6, strong, b {
@@ -14,7 +15,7 @@ h1, h2, h3, h4, h5, h6, strong, b {
 blockquote {
     font-family: 'Quattrocento', serif;
     font-weight: 400;
-    margin: 20px 0;
+    margin: 25px 0;
 }
 
 a:hover {
@@ -59,8 +60,7 @@ a:hover {
 
 .masthead .desc {
     margin: 0;
-    line-height: 1;
-    font-size: .75em;
+    line-height: 1.2;
     color: #999;
 }
 
@@ -92,6 +92,10 @@ a:hover {
     border-radius: 50px;
     -moz-border-radius: 50px;
     -webkit-border-radius: 50px;
+}
+
+.post-title, .masthead-title {
+    letter-spacing: -0.04em;
 }
 
 .post-date {

@@ -11,7 +11,7 @@ Olá, meu nome é Luís Henrique. Sou mineiro de 23 anos, bacharel em Ciência d
 
 Programo em algumas linguagens: Python, Java, PHP, JavaScript e Objective-C. Geralmente utilizo frameworks e bibliotecas, tal como Django, Hadoop, CakePHP, jQuery, Android SDK, Cocoa e Cocoa Touch. 
 
-Meus outros interesses e paixões se resumem em Linux, *open source*, metodologias ágeis, empreendedorismo, startups, música, futebol e *football*.
+Meus principais interesses e paixões se resumem em Linux, tecnologias *open source*, metodologias ágeis, empreendedorismo, startups, música, futebol e *football*.
 
 ### Profissional
 

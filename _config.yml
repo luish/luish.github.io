@@ -24,8 +24,8 @@ github:
   repo:           https://github.com/poole/poole
 
 pages_list:
-    Github: 'http://github.com/luish'
+    Github:  'http://github.com/luish'
     Twitter: 'http://twitter.com/luishborges'
-    Sobre: '/sobre'
-    Posts: '/posts'
-    Feed: '/atom.xml'
+    Sobre:   '/sobre'
+    Posts:   '/posts'
+    Feed:    '/atom.xml'

@@ -2,7 +2,7 @@
 @import url(http://fonts.googleapis.com/css?family=Quattrocento);
 
 body {
-  font: 1em/1.5 "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: .95em/1.5 "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #646464;
   font-weight: 300;
   letter-spacing: -0.01em;
@@ -79,20 +79,21 @@ a:hover {
 
 .masthead-menu li a {
     padding: 0 5px;
+    font-size: .85em;
 }
 
 .masthead-photo {
     text-align: center;
-    margin-top: 20px;
+    margin-top: 2em;
 }
 
 .masthead-photo img {
     display: inline-block;
-    width: 120px;
-    height: 120px;
-    border-radius: 60px;
-    -moz-border-radius: 60px;
-    -webkit-border-radius: 60px;
+    width: 140px;
+    height: 140px;
+    border-radius: 70px;
+    -moz-border-radius: 70px;
+    -webkit-border-radius: 70px;
 }
 
 .post-title, .masthead-title {

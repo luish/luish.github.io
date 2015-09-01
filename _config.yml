@@ -26,6 +26,8 @@ github:
 pages_list:
     Github:  'http://github.com/luish'
     Twitter: 'http://twitter.com/luishborges'
-    Sobre:   '/sobre'
-    Posts:   '/posts'
-    Feed:    '/atom.xml'
+    Instagram: 'http://instagram.com/luish.borges'
+    LinkedIn: 'http://br.linkedin.com/in/luishborges'
+    #Sobre:   '/sobre'
+    #Posts:   '/posts'
+    #Feed:    '/atom.xml'

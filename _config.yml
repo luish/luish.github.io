@@ -6,13 +6,13 @@ highlighter:      pygments
 permalink:        pretty
 
 # Setup
-title:            Luís Henrique Borges
+title:            Luis Henrique Borges
 tagline:          luish
 description:      Some random texts
 url:              http://luish.github.com
 
 author:
-  name:           Luis Henrique
+  name:           Luis Henrique Borges
   url:            https://twitter.com/luishborges
 
 paginate:         1
@@ -21,7 +21,7 @@ paginate:         1
 version:          1.0.0
 
 github:
-  repo:           https://github.com/poole/poole
+  repo:           https://github.com/luish/luish.github.io
 
 pages_list:
     Github:  'http://github.com/luish'

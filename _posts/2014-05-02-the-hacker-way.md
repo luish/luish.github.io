@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The Hacker Way
+title: The Hacker Way (pt-br)
 comments: False
 permalink: the-hacker-way
 published: True
@@ -20,12 +20,14 @@ Em seguida ele lista 5 valores (ou princípios), que estão sintetizados a segui
 
 1. **Move fast**: resulta num maior número de coisas feitas e no aprendizado mais rápido. Se você não está ultrapassando algum limite, então você não está sendo rápido o suficiente.
 
-1. **Be bold**: somente sendo arrojado e corajoso pode-se atingir metas e conluir tarefas arriscadas. É preciso tomar decisões ousadas, mesmo que isso se mostre errado depois de um tempo.
+1. **Be bold**: somente sendo arrojado e corajoso pode-se atingir metas e concluir tarefas arriscadas. É preciso tomar decisões ousadas, mesmo que isso se mostre errado depois de um tempo.
 
 1. **Be open**: todos precisam ter acesso ao máximo de informação possível para que possam tomar as melhores decisões e causar um impacto maior.
  
-1. **Build social value**: a empresa deve existir para causar mudanças no mundo e na sociedade. No caso do Facebook, o princípio é contribuir com um mundo mais aberto e conectado.
+1. **Build social value**: a empresa deve existir para causar mudanças no mundo e na sociedade. No caso do Facebook, o princípio é contribuir para um mundo mais aberto e conectado.
 
 
-Sobre a cultura da empresa, é interessante citar a colaboração contínua, a meritocracia e a base de conhecimento. Mesmo os novos engenheiros que não trabalharão diretamente com código participam de um programa chamado *Bootcamp* para aprender sobre programação, ferramentas e abordagens utilizadas na empresa. Também são frequentes os chamados *hackathons* - eventos que reunem o máximo de pessoas envolvidas com desenvolvimento de software para colaborarem intensivamente com novas ideias e protótipos de software. Muitos produtos do Facebook surgiram daí.
+Sobre a cultura da empresa, é interessante citar a colaboração contínua, a meritocracia e a base de conhecimento. Mesmo os novos engenheiros que não trabalharão diretamente com código participam de um programa chamado *Bootcamp* para aprender sobre programação, ferramentas e abordagens utilizadas na empresa. 
+
+Também são frequentes os chamados *hackathons* - eventos que reunem o máximo de pessoas envolvidas com desenvolvimento de software para colaborarem intensivamente com novas ideias e protótipos de software. Muitos produtos do Facebook surgiram (e provavelmente outros surgirão) daí.
 

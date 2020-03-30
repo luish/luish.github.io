@@ -1,11 +1,25 @@
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,600,700,300);
-@import url(http://fonts.googleapis.com/css?family=Quattrocento);
+---
+---
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,300,400,600,700);
+// @import url(http://fonts.googleapis.com/css?family=Quattrocento);
+
+$text-color: #646464;
+$subtitle-text-color: #555;
+$muted-text-color: #666;
+$link-color: #268bd2;
+
+$background-color-1: #fff;
+$background-color-2: #272733;
+$background-color-3: #6B484C;
+$background-color-4: #567987;
 
 body {
   font: 1.05em/1.5 "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #646464;
+  color: $text-color;
   font-weight: 300;
   letter-spacing: -0.01em;
+  background-color: $background-color-1;
 }
 
 h1, h2, h3, h4, h5, h6, strong, b {
@@ -37,6 +51,8 @@ a:hover {
 
 .container {
     padding: 0;
+    width: 100%;
+    max-width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -64,7 +80,7 @@ a:hover {
 
 .masthead-subtitle {
     margin: 0;
-    color: #666;
+    color: $subtitle-text-color;
     font-weight: 300;
     text-transform: uppercase;
     font-size: .85em;
@@ -76,7 +92,7 @@ a:hover {
     margin: 0;
     margin-bottom: .5em;
     line-height: 1.2;
-    color: #555;
+    color: $muted-text-color;
     font-size: .9em;
 }
 
@@ -94,6 +110,10 @@ a:hover {
 
 .mb-2 {
     margin-bottom: 2em;
+}
+
+.muted {
+    color: $muted-text-color;
 }
 
 .masthead-menu {
@@ -174,5 +194,47 @@ a:hover {
 @media (max-width:50em) {
     .container {
         padding: 0 20px;
+    }
+}
+
+.dark {
+    &, h1, h2, h3, h4, h5, h6, .masthead-menu li a, .footer, a {
+        color: white;
+    }
+
+    .muted {
+        color: lighten($color: $muted-text-color, $amount: 20);
+    }
+}
+
+.block-2 {
+    &.container {
+        background-color: $background-color-2;
+    }
+}
+
+.block-3 {
+    &.container {
+        background-color: $background-color-3;
+    }
+}
+
+.block-4 {
+    &.container {
+        background-color: $background-color-4;
+    }
+}
+
+.posts-list {
+    list-style: none;
+    margin-top: 2em;
+    
+    .post-list-item {
+        display: inline-flex;
+        flex-direction: column;
+
+        a, span {
+            display: inline-block;
+        }
     }
 }

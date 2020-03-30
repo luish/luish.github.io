@@ -6,14 +6,14 @@ highlighter:      rouge
 permalink:        pretty
 
 # Setup
-title:            Luis Henrique Borges
+title:            Luís Sousa
 tagline:          luish
 description:      Some random texts
 url:              http://luish.github.com
 
 author:
-  name:           Luis Henrique Borges
-  url:            https://twitter.com/luishborges
+  name:           Luis Henrique Sousa
+  url:            https://luish.github.com
 
 paginate:         1
 
@@ -24,10 +24,12 @@ github:
   repo:           https://github.com/luish/luish.github.io
 
 pages_list:
-    GitHub:  'http://github.com/luish'
-    Twitter: 'http://twitter.com/luishborges'
-    Instagram: 'https://www.instagram.com/luish.borges/'
-    LinkedIn: 'https://linkedin.com/in/luishborges'
-    #Sobre:   '/sobre'
-    #Posts:   '/posts'
-    #Feed:    '/atom.xml'
+    About:   '/about'
+    Posts:   '/posts'
+    Feed:    '/atom.xml'
+
+social_list:
+  GitHub: 'http://github.com/luish'
+  Twitter: 'http://twitter.com/luishborges'
+  Instagram: 'https://www.instagram.com/luish.borges/'
+  LinkedIn: 'https://linkedin.com/in/luishborges'

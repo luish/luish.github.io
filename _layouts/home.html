@@ -1,40 +1,48 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
-
   {% include head.html %}
-
   <body>
-
     <div class="container content home">
       <div class="masthead">
         <div class="masthead-photo">
           <img src="/public/img/luish.png"/>
         </div>
-
-        <h2 class="masthead-title">
+        
+        <h1 class="masthead-title">
           <a href="/" title="{{ site.title }} - {{ site.tagline }}">
            {{ site.title }}
           </a>
-        </h2>
+        </h1>
         
-        <p>
-          <ul class="masthead-menu">
-          {% for page in site.pages_list %}
-            <li><a href="{{ page[1] }}">{{ page[0] }}</a></li>
-          {% endfor %}
-          </ul>
-        </p>
+        <h2 class="masthead-subtitle mb-2">
+          Software Developer
+        </h2>
 
-        <p class="desc">Software Developer at <a href="https://www.mastercard.com">Mastercard</a></p>
-        <p class="desc"><small>previously <a href="https://www.ibm.com">IBM</a> and <a href="https://www.studiosol.com.br">Studio Sol</a></small></p>
+        <div class="mb-1">
+          <p class="desc no-margin">
+            <span>Currently at <a href="https://www.mastercard.com">Mastercard</a></span>
+          </p>
+
+          <p class="desc no-margin">
+            <small>previously <a href="https://www.ibm.com">IBM</a> and <a href="https://www.studiosol.com.br">Studio Sol</a></small>
+          </p>
+        </div>
+        
+        <ul class="masthead-menu">
+          {% for page in site.social_list %}
+            <li>
+              <a href="{{ page[1] }}" title="{{ page[0] }}">
+                <i class="fab fa-{{ page[0] | downcase }}"></i>
+              </a>
+            </li>
+          {% endfor %}
+        </ul>
+        
         <hr/>
         <p class="desc"><small>Based in Dublin, Ireland 🇮🇪</small></p>
       </div>
 
       {{ content }}
-
-      <!-- {% include footer.html %} -->
     </div>
-
   </body>
 </html>

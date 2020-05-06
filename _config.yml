@@ -29,7 +29,7 @@ pages_list:
     Feed:    '/atom.xml'
 
 social_list:
-  GitHub: 'http://github.com/luish'
-  Twitter: 'http://twitter.com/luishborges'
-  Instagram: 'https://www.instagram.com/luish.borges/'
+  GitHub: 'https://github.com/luish'
+  Twitter: 'https://twitter.com/luishborges'
+  Instagram: 'https://instagram.com/luish.borges/'
   LinkedIn: 'https://linkedin.com/in/luishborges'

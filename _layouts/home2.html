@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+
+  {% include head.html %}
+
+  <body>
+
+    <div class="container content home">
+      <div class="masthead">
+        <div class="masthead-photo">
+          <img src="/public/img/luish.png"/>
+        </div>
+        
+        <h1 class="masthead-title">
+          <a href="/" title="{{ site.title }} - {{ site.tagline }}">
+           {{ site.title }}
+          </a>
+        </h1>
+        
+        <h2 class="masthead-subtitle mb-2">
+          Software Developer
+        </h2>
+
+        <div class="mb-1">
+          <p class="desc no-margin">
+            <span>Currently at <a href="https://www.mastercard.com">Mastercard</a></span>
+          </p>
+
+          <p class="desc no-margin">
+            <small>previously <a href="https://www.ibm.com">IBM</a> and <a href="https://www.studiosol.com.br">Studio Sol</a></small>
+          </p>
+        </div>
+        
+        <ul class="masthead-menu">
+          {% for page in site.social_list %}
+            <li>
+              <a href="{{ page[1] }}" title="{{ page[0] }}">
+                <i class="fab link-{{ page[0] | downcase }}"></i>
+              </a>
+            </li>
+          {% endfor %}
+        </ul>
+        
+        <hr/>
+        <p class="desc"><small>Based in Dublin, Ireland 🇮🇪</small></p>
+        <p>
+          <a href="#" class="theme-switcher">
+            <small>
+              <i class="fas fa-adjust"></i>
+              <span class="theme-switcher-text">Dark mode</span>
+            </a>
+          </small>
+        </p>
+      </div>
+
+      {{ content }}
+    </div>
+
+    <div class="container dark home block-2">
+      <h1 class="typewriter">Something here</h1>
+    </div>
+
+    <div class="container home block-3">
+      <h1 class="">Posts</h1>
+      <h2>¯\_(ツ)_/¯</h2>
+      <div class="posts">
+        {% if site.posts.size > 0 %}
+          <ul class="posts-list">
+          {% for post in site.posts %}
+            <li class="post-list-item">
+              <a href="{{ post.url }}">
+                {{ post.title }}
+              </a>
+              <span class="muted">{{post.description}}</span>
+        
+              <small class="post-date">{{ post.date | date_to_string }}</small>
+            </li>
+          {% endfor %}
+          </ul>
+        {% else %}
+          <p>Nenhum post ainda.</p>
+        {% endif %}
+        </div>
+    </div>
+
+    <div class="container dark home block-4">
+      <h1 class="">Pages</h1>
+      <ul>
+      {% for page in site.pages_list %}
+        <li>
+          <a href="{{ page[1] }}" title="{{ page[0] }}">
+            {{page[0]}}
+          </a>
+        </li>
+      {% endfor %}
+      </ul>
+    </div>
+
+    <div class="container home block-5">
+      <h1 class="">Contact</h1>
+
+      {% include footer.html %}
+    </div>
+
+    <script src="/public/js/typewriter.js"></script>
+    <script src="/public/js/theme-switcher.js"></script>
+  </body>
+</html>

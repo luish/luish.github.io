@@ -3,7 +3,7 @@ layout: post
 title: The Hacker Way (pt-br)
 comments: False
 permalink: the-hacker-way
-published: True
+published: False
 ---
 
 Em 2012, [Mark Zuckerberg](http://en.wikipedia.org/wiki/Mark_Zuckerberg) preencheu o [Form S-1](http://en.wikipedia.org/wiki/Form_S-1) para registro das políticas de segurança do [Facebook, Inc.](http://facebook.com) como parte do processo de tornar a empresa pública. 

@@ -31,8 +31,8 @@
         <ul class="masthead-menu">
           {% for page in site.social_list %}
             <li>
-              <a href="{{ page[1] }}" title="{{ page[0] }}">
-                <i class="fab fa-{{ page[0] | downcase }}"></i>
+              <a href="{{ page[1] }}">
+                <i class="fab link-{{ page[0] | slice: 0 | downcase }}"></i>
               </a>
             </li>
           {% endfor %}

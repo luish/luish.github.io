@@ -1,4 +1,14 @@
 <div class="footer">
+  <ul class="masthead-menu">
+    {% for page in site.social_list %}
+      <li>
+        <a href="{{ page[1] }}" title="{{ page[0] }}">
+          <i class="fab fa-{{ page[0] | downcase }}"></i>
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+  
     <p>
       <small><a href="http://luish.github.io">luish.github.io</a> | made with <a href="http://jekyllrb.com/">jekyll</a> + <a href="https://github.com/poole/poole">poole</a></small>
     </p>
